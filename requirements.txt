@@ -6,3 +6,6 @@ torchaudio===0.10.2+cu113
 tensorboard
 setuptools==59.5.0
 tqdm
+numpy
+tensorflow
+sklearn

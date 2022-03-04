@@ -15,8 +15,16 @@ venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
-Una vez instaladas las dependencias, se puede ejecutar el código mediante el siguiente comando:
+Una vez instaladas las dependencias, se puede ejecutar el código principal en torch mediante el siguiente comando:
 
 ```bash
 python main.py
 ```
+
+Por otro lado, si se quiere ejecutar el código en tensorflow, se utiliza el siguiente comando:
+
+```bash
+python tensorflow/main.py
+```
+
+Este último solo implementa un entrenamiento primario en base a un algoritmo greedy, no implementa apendizaje por refuerzo.
